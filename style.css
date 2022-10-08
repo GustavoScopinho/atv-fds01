@@ -146,6 +146,8 @@ body{
 
 #skills {
   background-color: #FFF;
+  padding: 0 60px 100px 60px;
+
 }
 
 #skills h1, h2, p {
@@ -163,4 +165,8 @@ body{
 .pai-divisor3 {
   display: flex;
   justify-content: center;
+}
+
+#skills h2 {
+  margin-top: 8%;
 }
