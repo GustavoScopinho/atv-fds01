@@ -170,3 +170,137 @@ body{
 #skills h2 {
   margin-top: 8%;
 }
+
+/* SECTION PORTFOLIO */
+
+#portfolio{
+  background-color: #FFDD99;
+  height: 100%;
+  width: 100%;
+} 
+
+#portfolio h1, #portfolio h2, #portfolio p{
+  color: #393939;
+}
+
+.divisor-pai{
+  display: flex;
+  justify-content: center;
+}
+.divisor{
+  width: 87px;
+  height: 4px;
+  background-color: #E5C37F;
+}
+
+#portfolio-navbar .btn {
+  background-color: rgba(0, 0, 0, 0.08);
+  color: #393939;
+  border: 0;
+  width: 80px;
+  height: 33px;
+  justify-self: center;
+  text-align: center;
+}
+
+#portfolio-navbar .active{
+  background-color: #ffffff;
+  padding: 0;
+}
+
+#portfolio-content{
+  max-width: 1200px;
+  display: grid;
+  margin: 0 auto;
+  gap: 60px;
+}
+#portfolio-content h2{
+  margin-top: 20px;
+  font-size: 1.2rem;
+}
+
+/* COMMENTS */
+
+#comments{
+  background-color: #D74680;
+  height: 100%;
+  width: 100%;
+} 
+
+#comments .divisor-pai{
+  display: flex;
+  justify-content: center;
+}
+#comments .divisor{
+  width: 87px;
+  height: 4px;
+  background-color: #000000;
+  opacity: 0.15;
+}
+.comment-text p{
+  max-width: 360px;
+  padding-right: 40px;
+  margin-bottom: 0px;
+  text-align: left;
+}
+.comment-text p em{
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+.comment-text p em, .comment-text h2{
+  color: #ffffff;
+}
+
+.comment-text small{
+ font-size: 18px;
+ color: #FFDD99;
+ font-weight: 400;
+}
+
+#comments-content{
+  max-width: 1200px;
+  display: grid;
+  margin: 0 auto;
+  gap: 60px;
+}
+
+/* CONTACT */
+
+#contact{
+  background-color: #3C5499;
+  height: 100%;
+  width: 100%;
+} 
+
+#contact-content{
+  max-width: 1200px;
+  display: grid;
+  margin: 0 auto;
+  gap: 60px;
+}
+
+#contact .divisor-pai{
+  display: flex;
+  justify-content: center;
+}
+#contact .divisor{
+  width: 87px;
+  height: 4px;
+  background-color: #273A71;
+}
+
+#contact input, #contact textarea, 
+#contact input::placeholder, #contact textarea::placeholder{
+  color: white;
+  font-size: 18px;
+}
+
+#contact-nav{
+  background-color: #344B8E;
+}
+
+#contact-navbar ul li a p{
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #ffffff;
+}
