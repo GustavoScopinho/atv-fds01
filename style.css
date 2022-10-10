@@ -111,7 +111,7 @@ body{
 
 
 #team {
-  background-color: #E7F1F8;
+  background-color: #f8e7e7;
   width: 100%;
   padding: 0 60px 100px 60px;
 }
@@ -120,14 +120,14 @@ body{
   color: #3C4761;
 }
 
-.divisor{
+.divisor1{
   width: 87px;
   height: 4px;
-  background-color: #bdd1dfb4;
+  background-color: #BDD1DF;
   margin-top: -1.5%;
 }
 
-.pai-divisor {
+.pai-divisor1 {
   display: flex;
   justify-content: center;
 }
@@ -190,6 +190,7 @@ body{
 .divisor{
   width: 87px;
   height: 4px;
+  margin-top: -1.5%;
   background-color: #E5C37F;
 }
 
